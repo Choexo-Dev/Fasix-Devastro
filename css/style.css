@@ -83,8 +83,8 @@ p {
 }
 
 .row {
-display: flex;
- margin: 100px;
+  display: flex;
+  margin: 100px;
 }
 
 img {
@@ -413,7 +413,7 @@ ol {
 }
 
 .header__logo a {
-  display: inline-block;
+  display: flex;
 }
 
 .header__menu {
@@ -1949,11 +1949,11 @@ ol {
 
 .footer {
   background: #111111;
-  padding-top: 70px;
+  padding-top: 6px;
 }
 
 .footer__about {
-  margin-bottom: 30px;
+  margin-bottom: 7px;
 }
 
 .footer__about .footer__logo {
@@ -1970,7 +1970,7 @@ ol {
 }
 
 .footer__widget {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .footer__widget h6 {
@@ -1979,7 +1979,7 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .footer__widget ul li {
